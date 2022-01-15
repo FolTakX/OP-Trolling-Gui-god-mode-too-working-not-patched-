@@ -1,0 +1,408 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local UltimateTrollingGuiFE = Instance.new("ScreenGui")
+local ERR1 = Instance.new("Frame")
+local ERR422 = Instance.new("TextLabel")
+local ERR = Instance.new("TextLabel")
+local ERR2 = Instance.new("Frame")
+local ERR422_2 = Instance.new("TextLabel")
+local ERR_2 = Instance.new("TextLabel")
+local ERR3 = Instance.new("Frame")
+local ERR422_3 = Instance.new("TextLabel")
+local ERR_3 = Instance.new("TextLabel")
+local ERR4 = Instance.new("Frame")
+local ERR422_4 = Instance.new("TextLabel")
+local ERR_4 = Instance.new("TextLabel")
+local ERR5 = Instance.new("Frame")
+local ERR422_5 = Instance.new("TextLabel")
+local ERR_5 = Instance.new("TextLabel")
+local ERR6 = Instance.new("Frame")
+local ERR422_6 = Instance.new("TextLabel")
+local ERR_6 = Instance.new("TextLabel")
+local ERR7 = Instance.new("Frame")
+local ERR422_7 = Instance.new("TextLabel")
+local ERR_7 = Instance.new("TextLabel")
+local ERR8 = Instance.new("Frame")
+local ERR422_8 = Instance.new("TextLabel")
+local ERR_8 = Instance.new("TextLabel")
+local ERR9 = Instance.new("Frame")
+local ERR422_9 = Instance.new("TextLabel")
+local ERR_9 = Instance.new("TextLabel")
+local ERR10 = Instance.new("Frame")
+local ERR422_10 = Instance.new("TextLabel")
+local ERR_10 = Instance.new("TextLabel")
+local ERR11 = Instance.new("Frame")
+local ERR422_11 = Instance.new("TextLabel")
+local ERR_11 = Instance.new("TextLabel")
+
+--Properties:
+
+UltimateTrollingGuiFE.Name = "UltimateTrollingGuiFE"
+UltimateTrollingGuiFE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UltimateTrollingGuiFE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ERR1.Name = "ERR1"
+ERR1.Parent = UltimateTrollingGuiFE
+ERR1.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR1.Position = UDim2.new(0.30626452, 0, 0.362428844, 0)
+ERR1.Size = UDim2.new(0, 411, 0, 245)
+ERR1.Visible = false
+
+ERR422.Name = "ERR422"
+ERR422.Parent = ERR1
+ERR422.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422.Size = UDim2.new(0, 200, 0, 50)
+ERR422.Font = Enum.Font.SourceSans
+ERR422.Text = "ERROR 422"
+ERR422.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422.TextScaled = true
+ERR422.TextSize = 14.000
+ERR422.TextWrapped = true
+
+ERR.Name = "ERR"
+ERR.Parent = ERR1
+ERR.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR.Size = UDim2.new(0, 357, 0, 74)
+ERR.Font = Enum.Font.SourceSans
+ERR.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR.TextScaled = true
+ERR.TextSize = 14.000
+ERR.TextWrapped = true
+
+ERR2.Name = "ERR2"
+ERR2.Parent = UltimateTrollingGuiFE
+ERR2.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR2.Position = UDim2.new(-0.170533627, 0, 0.0360531211, 0)
+ERR2.Size = UDim2.new(0, 411, 0, 245)
+ERR2.Visible = false
+
+ERR422_2.Name = "ERR422"
+ERR422_2.Parent = ERR2
+ERR422_2.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_2.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_2.Size = UDim2.new(0, 200, 0, 50)
+ERR422_2.Font = Enum.Font.SourceSans
+ERR422_2.Text = "ERROR 422"
+ERR422_2.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_2.TextScaled = true
+ERR422_2.TextSize = 14.000
+ERR422_2.TextWrapped = true
+
+ERR_2.Name = "ERR"
+ERR_2.Parent = ERR2
+ERR_2.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_2.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_2.Size = UDim2.new(0, 357, 0, 74)
+ERR_2.Font = Enum.Font.SourceSans
+ERR_2.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_2.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_2.TextScaled = true
+ERR_2.TextSize = 14.000
+ERR_2.TextWrapped = true
+
+ERR3.Name = "ERR3"
+ERR3.Parent = UltimateTrollingGuiFE
+ERR3.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR3.Position = UDim2.new(0.842514396, 0, 0.500948787, 0)
+ERR3.Size = UDim2.new(0, 411, 0, 245)
+ERR3.Visible = false
+
+ERR422_3.Name = "ERR422"
+ERR422_3.Parent = ERR3
+ERR422_3.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_3.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_3.Size = UDim2.new(0, 200, 0, 50)
+ERR422_3.Font = Enum.Font.SourceSans
+ERR422_3.Text = "ERROR 422"
+ERR422_3.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_3.TextScaled = true
+ERR422_3.TextSize = 14.000
+ERR422_3.TextWrapped = true
+
+ERR_3.Name = "ERR"
+ERR_3.Parent = ERR3
+ERR_3.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_3.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_3.Size = UDim2.new(0, 357, 0, 74)
+ERR_3.Font = Enum.Font.SourceSans
+ERR_3.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_3.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_3.TextScaled = true
+ERR_3.TextSize = 14.000
+ERR_3.TextWrapped = true
+
+ERR4.Name = "ERR4"
+ERR4.Parent = UltimateTrollingGuiFE
+ERR4.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR4.Position = UDim2.new(0.587023914, 0, 0.0683112144, 0)
+ERR4.Size = UDim2.new(0, 411, 0, 245)
+ERR4.Visible = false
+
+ERR422_4.Name = "ERR422"
+ERR422_4.Parent = ERR4
+ERR422_4.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_4.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_4.Size = UDim2.new(0, 200, 0, 50)
+ERR422_4.Font = Enum.Font.SourceSans
+ERR422_4.Text = "ERROR 422"
+ERR422_4.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_4.TextScaled = true
+ERR422_4.TextSize = 14.000
+ERR422_4.TextWrapped = true
+
+ERR_4.Name = "ERR"
+ERR_4.Parent = ERR4
+ERR_4.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_4.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_4.Size = UDim2.new(0, 357, 0, 74)
+ERR_4.Font = Enum.Font.SourceSans
+ERR_4.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_4.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_4.TextScaled = true
+ERR_4.TextSize = 14.000
+ERR_4.TextWrapped = true
+
+ERR5.Name = "ERR5"
+ERR5.Parent = UltimateTrollingGuiFE
+ERR5.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR5.Position = UDim2.new(0.0394397378, 0, 0.561669827, 0)
+ERR5.Size = UDim2.new(0, 411, 0, 245)
+ERR5.Visible = false
+
+ERR422_5.Name = "ERR422"
+ERR422_5.Parent = ERR5
+ERR422_5.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_5.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_5.Size = UDim2.new(0, 200, 0, 50)
+ERR422_5.Font = Enum.Font.SourceSans
+ERR422_5.Text = "ERROR 422"
+ERR422_5.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_5.TextScaled = true
+ERR422_5.TextSize = 14.000
+ERR422_5.TextWrapped = true
+
+ERR_5.Name = "ERR"
+ERR_5.Parent = ERR5
+ERR_5.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_5.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_5.Size = UDim2.new(0, 357, 0, 74)
+ERR_5.Font = Enum.Font.SourceSans
+ERR_5.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_5.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_5.TextScaled = true
+ERR_5.TextSize = 14.000
+ERR_5.TextWrapped = true
+
+ERR6.Name = "ERR6"
+ERR6.Parent = UltimateTrollingGuiFE
+ERR6.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR6.Position = UDim2.new(0.242953643, 0, 0.0474383235, 0)
+ERR6.Size = UDim2.new(0, 411, 0, 245)
+ERR6.Visible = false
+
+ERR422_6.Name = "ERR422"
+ERR422_6.Parent = ERR6
+ERR422_6.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_6.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_6.Size = UDim2.new(0, 200, 0, 50)
+ERR422_6.Font = Enum.Font.SourceSans
+ERR422_6.Text = "ERROR 422"
+ERR422_6.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_6.TextScaled = true
+ERR422_6.TextSize = 14.000
+ERR422_6.TextWrapped = true
+
+ERR_6.Name = "ERR"
+ERR_6.Parent = ERR6
+ERR_6.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_6.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_6.Size = UDim2.new(0, 357, 0, 74)
+ERR_6.Font = Enum.Font.SourceSans
+ERR_6.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_6.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_6.TextScaled = true
+ERR_6.TextSize = 14.000
+ERR_6.TextWrapped = true
+
+ERR7.Name = "ERR7"
+ERR7.Parent = UltimateTrollingGuiFE
+ERR7.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR7.Position = UDim2.new(0.561401665, 0, 0.724857688, 0)
+ERR7.Size = UDim2.new(0, 411, 0, 245)
+ERR7.Visible = false
+
+ERR422_7.Name = "ERR422"
+ERR422_7.Parent = ERR7
+ERR422_7.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_7.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_7.Size = UDim2.new(0, 200, 0, 50)
+ERR422_7.Font = Enum.Font.SourceSans
+ERR422_7.Text = "ERROR 422"
+ERR422_7.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_7.TextScaled = true
+ERR422_7.TextSize = 14.000
+ERR422_7.TextWrapped = true
+
+ERR_7.Name = "ERR"
+ERR_7.Parent = ERR7
+ERR_7.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_7.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_7.Size = UDim2.new(0, 357, 0, 74)
+ERR_7.Font = Enum.Font.SourceSans
+ERR_7.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_7.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_7.TextScaled = true
+ERR_7.TextSize = 14.000
+ERR_7.TextWrapped = true
+
+ERR8.Name = "ERR8"
+ERR8.Parent = UltimateTrollingGuiFE
+ERR8.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR8.Position = UDim2.new(0.340318203, 0, 0.354838699, 0)
+ERR8.Size = UDim2.new(0, 411, 0, 245)
+ERR8.Visible = false
+
+ERR422_8.Name = "ERR422"
+ERR422_8.Parent = ERR8
+ERR422_8.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_8.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_8.Size = UDim2.new(0, 200, 0, 50)
+ERR422_8.Font = Enum.Font.SourceSans
+ERR422_8.Text = "ERROR 422"
+ERR422_8.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_8.TextScaled = true
+ERR422_8.TextSize = 14.000
+ERR422_8.TextWrapped = true
+
+ERR_8.Name = "ERR"
+ERR_8.Parent = ERR8
+ERR_8.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_8.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_8.Size = UDim2.new(0, 357, 0, 74)
+ERR_8.Font = Enum.Font.SourceSans
+ERR_8.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_8.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_8.TextScaled = true
+ERR_8.TextSize = 14.000
+ERR_8.TextWrapped = true
+
+ERR9.Name = "ERR9"
+ERR9.Parent = UltimateTrollingGuiFE
+ERR9.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR9.Position = UDim2.new(0.0958086848, 0, 0.163187847, 0)
+ERR9.Size = UDim2.new(0, 411, 0, 245)
+ERR9.Visible = false
+
+ERR422_9.Name = "ERR422"
+ERR422_9.Parent = ERR9
+ERR422_9.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_9.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_9.Size = UDim2.new(0, 200, 0, 50)
+ERR422_9.Font = Enum.Font.SourceSans
+ERR422_9.Text = "ERROR 422"
+ERR422_9.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_9.TextScaled = true
+ERR422_9.TextSize = 14.000
+ERR422_9.TextWrapped = true
+
+ERR_9.Name = "ERR"
+ERR_9.Parent = ERR9
+ERR_9.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_9.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_9.Size = UDim2.new(0, 357, 0, 74)
+ERR_9.Font = Enum.Font.SourceSans
+ERR_9.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_9.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_9.TextScaled = true
+ERR_9.TextSize = 14.000
+ERR_9.TextWrapped = true
+
+ERR10.Name = "ERR10"
+ERR10.Parent = UltimateTrollingGuiFE
+ERR10.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR10.Position = UDim2.new(0.299322605, 0, 0.741935492, 0)
+ERR10.Size = UDim2.new(0, 411, 0, 245)
+ERR10.Visible = false
+
+ERR422_10.Name = "ERR422"
+ERR422_10.Parent = ERR10
+ERR422_10.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_10.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_10.Size = UDim2.new(0, 200, 0, 50)
+ERR422_10.Font = Enum.Font.SourceSans
+ERR422_10.Text = "ERROR 422"
+ERR422_10.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_10.TextScaled = true
+ERR422_10.TextSize = 14.000
+ERR422_10.TextWrapped = true
+
+ERR_10.Name = "ERR"
+ERR_10.Parent = ERR10
+ERR_10.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_10.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_10.Size = UDim2.new(0, 357, 0, 74)
+ERR_10.Font = Enum.Font.SourceSans
+ERR_10.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_10.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_10.TextScaled = true
+ERR_10.TextSize = 14.000
+ERR_10.TextWrapped = true
+
+ERR11.Name = "ERR11"
+ERR11.Parent = UltimateTrollingGuiFE
+ERR11.BackgroundColor3 = Color3.fromRGB(11, 190, 255)
+ERR11.Position = UDim2.new(0.299322605, 0, 0.741935492, 0)
+ERR11.Size = UDim2.new(0, 411, 0, 245)
+ERR11.Visible = false
+
+ERR422_11.Name = "ERR422"
+ERR422_11.Parent = ERR11
+ERR422_11.BackgroundColor3 = Color3.fromRGB(182, 0, 3)
+ERR422_11.Position = UDim2.new(0.255474448, 0, 0, 0)
+ERR422_11.Size = UDim2.new(0, 200, 0, 50)
+ERR422_11.Font = Enum.Font.SourceSans
+ERR422_11.Text = "ERROR 422"
+ERR422_11.TextColor3 = Color3.fromRGB(138, 0, 2)
+ERR422_11.TextScaled = true
+ERR422_11.TextSize = 14.000
+ERR422_11.TextWrapped = true
+
+ERR_11.Name = "ERR"
+ERR_11.Parent = ERR11
+ERR_11.BackgroundColor3 = Color3.fromRGB(75, 0, 1)
+ERR_11.Position = UDim2.new(0.0656934306, 0, 0.48163265, 0)
+ERR_11.Size = UDim2.new(0, 357, 0, 74)
+ERR_11.Font = Enum.Font.SourceSans
+ERR_11.Text = "FAILED TO LOAD SCRIPT ERR422"
+ERR_11.TextColor3 = Color3.fromRGB(230, 0, 3)
+ERR_11.TextScaled = true
+ERR_11.TextSize = 14.000
+ERR_11.TextWrapped = true
+
+--Makes sure so that the script is working
+
+game.StarterGui.UltimateTrollingGuiFE.ERR1.Visible = true
+wait (2)
+game.StarterGui.UltimateTrollingGuiFE.ERR2.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR3.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR4.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR5.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR6.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR7.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR8.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR9.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR10.Visible = true
+game.StarterGui.UltimateTrollingGuiFE.ERR11.Visible = true
+wait(0.1)
+
+while true do
+	game.Players.LocalPlayer.Character.Humanoid.Health = 100000000000
+end
+
+--It has been indicated, and if the script is working then the god mode script should work too.
