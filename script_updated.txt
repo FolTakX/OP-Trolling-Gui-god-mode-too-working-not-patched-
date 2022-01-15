@@ -41,7 +41,7 @@ local ERR_11 = Instance.new("TextLabel")
 --Properties:
 
 UltimateTrollingGuiFE.Name = "UltimateTrollingGuiFE"
-UltimateTrollingGuiFE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UltimateTrollingGuiFE.Parent = game.Players.LocalPlayer.PlayerGui
 UltimateTrollingGuiFE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ERR1.Name = "ERR1"
@@ -387,22 +387,23 @@ ERR_11.TextWrapped = true
 
 --Makes sure so that the script is working
 
-game.StarterGui.UltimateTrollingGuiFE.ERR1.Visible = true
+ERR1.Visible = true
 wait (2)
-game.StarterGui.UltimateTrollingGuiFE.ERR2.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR3.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR4.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR5.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR6.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR7.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR8.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR9.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR10.Visible = true
-game.StarterGui.UltimateTrollingGuiFE.ERR11.Visible = true
-wait(0.1)
-
-while true do
-	game.Players.LocalPlayer.Character.Humanoid.Health = 100000000000
+ERR2.Visible = true
+ERR3.Visible = true
+ERR4.Visible = true
+ERR5.Visible = true
+ERR6.Visible = true
+ERR7.Visible = true
+ERR8.Visible = true
+ERR9.Visible = true
+ERR10.Visible = true
+ERR11.Visible = true
+if ERR1.Visible == true then
+    wait(0.1)
+    while true do
+           game.Players.LocalPlayer.Character.Humanoid.Health = 100000000000
+    end
 end
 
 --It has been indicated, and if the script is working then the god mode script should work too.
